@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Autonomous — an open protocol on Robinhood Chain</title>
+<meta name="description" content="Autonomous runs on Robinhood Chain. Network telemetry, the contract register, and every external fact on this page are tracked as stated, absent, or unconfirmed — never fabricated." />
+<meta name="color-scheme" content="dark" />
+<meta name="theme-color" content="#090909" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="assets/icon-192.png" sizes="192x192" type="image/png" />
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<link rel="canonical" href="https://autonomous.onl/" />
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Autonomous" />
+<meta property="og:title" content="Autonomous — an open protocol on Robinhood Chain" />
+<meta property="og:description" content="Live network telemetry, an open fact register, and a contract slot that stays honest about what is and isn't known yet." />
+<meta property="og:url" content="https://autonomous.onl/" />
+<meta property="og:image" content="https://autonomous.onl/assets/og-cover.jpg" />
+<meta property="og:image:width" content="1600" />
+<meta property="og:image:height" content="900" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://autonomous.onl/assets/og-cover.jpg" />
+
+<link rel="stylesheet" href="styles/tokens.css" />
+<link rel="stylesheet" href="styles/base.css" />
+<link rel="stylesheet" href="styles/components.css" />
+<link rel="stylesheet" href="styles/animations.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="top-stack" id="top">
+  <div class="container site-header">
+    <a class="logo" href="#top" aria-label="Autonomous — back to top">
+      <img class="logo-mark" src="assets/logo-mark.png" width="32" height="32" alt="" aria-hidden="true" />
+      <span>Autonomous</span>
+    </a>
+    <div class="nav-actions">
+      <a class="btn btn-secondary" href="#network">
+        Live network
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 8h8M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <div class="nav-social">
+        <span class="icon-btn tooltip-end" data-inert="true" tabindex="0" role="link" aria-disabled="true" aria-label="X — not yet announced" data-tooltip="Not yet announced">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </span>
+        <span class="icon-btn tooltip-end" data-inert="true" tabindex="0" role="link" aria-disabled="true" aria-label="GitHub — not yet announced" data-tooltip="Not yet announced">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container ca-bar">
+    <div class="ca-shell" data-state="absent" data-ca-shell>
+      <span class="ca-label">Contract</span>
+      <div class="ca-value-wrap">
+        <span class="ca-value mono">Not yet deployed</span>
+      </div>
+      <button class="ca-copy" type="button" disabled aria-label="Copy contract address — not available yet" data-tooltip="Appears once the contract is live">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><rect x="3" y="3" width="8" height="8" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M6 3V2a1 1 0 011-1h5a1 1 0 011 1v5a1 1 0 01-1 1h-1" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>
+        <span class="copy-label" data-copy-label>Copy</span>
+      </button>
+      <span class="ca-state"><span class="ca-state-dot"></span>Not deployed</span>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+
+  <section class="hero container">
+    <div class="hero-grid">
+      <div class="hero-inner">
+        <p class="eyebrow" data-reveal style="--reveal-delay:0ms">Built on Robinhood Chain</p>
+        <h1 data-reveal style="--reveal-delay:60ms">An open protocol, verified in the open.</h1>
+        <p class="lede" data-reveal style="--reveal-delay:120ms">
+          Autonomous runs on Robinhood Chain. Every network figure below is read live from the chain's own RPC —
+          nothing on this page is typed in by hand, and nothing is shown as fact until it can be confirmed.
+        </p>
+        <div class="btn-row" data-reveal style="--reveal-delay:180ms">
+          <a class="btn btn-primary" href="#network">
+            View live network
+            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 8h8M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a class="btn btn-secondary" href="#register">
+            How the register works
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual" data-reveal style="--reveal-delay:100ms" aria-hidden="true">
+        <div class="hero-visual-glow"></div>
+        <div class="hero-visual-grid"></div>
+        <div class="hero-visual-tilt" data-tilt>
+          <img class="hero-visual-mark" src="assets/hero-mark.png" width="720" height="720" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" aria-labelledby="how-heading" id="register">
+    <div class="section-head" data-reveal>
+      <p class="eyebrow">Built to stay honest</p>
+      <h2 id="how-heading">A clear rule for every fact</h2>
+      <p class="lede">No external claim on this site is stated unless it can be sourced. Everything else waits, visibly, as absent or unconfirmed.</p>
+    </div>
+
+    <div class="card-grid" data-reveal style="--reveal-delay:80ms">
+      <article class="feature-card">
+        <div class="feature-card-top">
+          <span class="feature-index">01</span>
+          <svg class="feature-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" d="M5 7h10M5 12h14M5 17h7"/><circle cx="20" cy="7" r="1.4" fill="currentColor"/></svg>
+        </div>
+        <h3>Registered, not assumed</h3>
+        <p>Every external fact — the contract, the socials, the chain itself — is tracked in one register as <strong>stated</strong>, <strong>absent</strong>, or <strong>unconfirmed</strong>. Nothing is inferred in between.</p>
+        <span class="feature-tag">Fact <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 8h8M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Register</span>
+      </article>
+      <article class="feature-card">
+        <div class="feature-card-top">
+          <span class="feature-index">02</span>
+          <svg class="feature-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path fill="none" stroke="currentColor" stroke-width="1.5" d="M12 3v9m0 0l8-4.5M12 12l-8-4.5M12 12v9"/></svg>
+        </div>
+        <h3>Read from the chain</h3>
+        <p>Block height, gas price, base fee, and gas used are pulled straight from the Robinhood Chain RPC on a 15‑second interval — not cached, not estimated.</p>
+        <span class="feature-tag">RPC <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 8h8M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Live</span>
+      </article>
+      <article class="feature-card">
+        <div class="feature-card-top">
+          <span class="feature-index">03</span>
+          <svg class="feature-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 12h8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Nothing invented</h3>
+        <p>If a number can't be verified right now — an unreachable RPC, an unindexed chain — the page shows <strong class="mono">—</strong> instead of a guess.</p>
+        <span class="feature-tag">Unknown <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 8h8M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg> —</span>
+      </article>
+    </div>
+  </section>
+
+  <section class="container" aria-labelledby="scrutiny-heading">
+    <div class="section-head" data-reveal>
+      <p class="eyebrow">No shortcuts</p>
+      <h2 id="scrutiny-heading">Built for scrutiny</h2>
+      <p class="lede">This page asks for nothing and hides nothing. Four things you never have to take on faith.</p>
+    </div>
+
+    <div class="flat-list" data-reveal style="--reveal-delay:80ms">
+      <div class="flat-item">
+        <span class="flat-index">01</span>
+        <h3>No wallet signing</h3>
+        <p>This page never asks you to connect, approve, or sign anything.</p>
+      </div>
+      <div class="flat-item">
+        <span class="flat-index">02</span>
+        <h3>No hidden endpoints</h3>
+        <p>The only calls it makes are the Robinhood Chain RPC and the DeFiLlama API — both named above.</p>
+      </div>
+      <div class="flat-item">
+        <span class="flat-index">03</span>
+        <h3>No custody</h3>
+        <p>Nothing here holds funds, keys, or permissions on your behalf.</p>
+      </div>
+      <div class="flat-item">
+        <span class="flat-index">04</span>
+        <h3>Open once it's confirmed</h3>
+        <p>The contract and socials flip from absent to stated the moment they're real — never sooner.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" id="network" aria-labelledby="network-heading">
+    <div class="network-head" data-reveal>
+      <div>
+        <p class="eyebrow">Robinhood Chain · id 4663</p>
+        <h2 id="network-heading">Live on the network</h2>
+        <p class="lede">Straight from the RPC — <span class="mono">rpc.mainnet.chain.robinhood.com</span>.</p>
+      </div>
+      <div class="network-meta">
+        <span class="pulse-dot" aria-hidden="true"></span>
+        <span id="network-updated">Connecting…</span>
+      </div>
+    </div>
+
+    <div class="stat-grid" data-reveal style="--reveal-delay:80ms">
+      <div class="stat-card">
+        <span class="stat-label">Block height</span>
+        <span class="stat-value numeric" id="stat-blocknumber" data-empty="true" data-loading="true">—</span>
+        <span class="stat-foot" id="stat-blocknumber-foot">Waiting for RPC…</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Gas price</span>
+        <span class="stat-value numeric" id="stat-gasprice" data-empty="true" data-loading="true">—</span>
+        <span class="stat-foot" id="stat-gasprice-foot">Waiting for RPC…</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Base fee</span>
+        <span class="stat-value numeric" id="stat-basefee" data-empty="true" data-loading="true">—</span>
+        <span class="stat-foot" id="stat-basefee-foot">Waiting for RPC…</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Gas used</span>
+        <span class="stat-value numeric" id="stat-gasused" data-empty="true" data-loading="true">—</span>
+        <span class="stat-foot" id="stat-gasused-foot">Waiting for RPC…</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Block age</span>
+        <span class="stat-value numeric" id="stat-blockage" data-empty="true" data-loading="true">—</span>
+        <span class="stat-foot" id="stat-blockage-foot">Waiting for RPC…</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Chain ID</span>
+        <span class="stat-value numeric">4663</span>
+        <span class="stat-foot" id="stat-chainid-foot">0x1237 · stated 2026‑09‑02</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Chain TVL</span>
+        <span class="stat-value numeric" id="stat-tvl" data-empty="true" data-loading="true">—</span>
+        <span class="stat-foot" id="stat-tvl-foot">via <a href="https://defillama.com/" target="_blank" rel="noopener noreferrer">DeFiLlama</a></span>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="cta-band" data-reveal>
+      <p class="eyebrow">Verify it yourself</p>
+      <h2>The RPC is public. The register is open.</h2>
+      <p class="lede">Check every figure on this page against the chain directly — no account, no key, no trust required.</p>
+      <div class="btn-row">
+        <button class="btn btn-primary" type="button" data-copy-value="https://rpc.mainnet.chain.robinhood.com">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><rect x="3" y="3" width="8" height="8" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M6 3V2a1 1 0 011-1h5a1 1 0 011 1v5a1 1 0 01-1 1h-1" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>
+          <span class="copy-label" data-copy-label>Copy RPC endpoint</span>
+        </button>
+        <a class="btn btn-secondary" href="#top">Back to the contract slot</a>
+      </div>
+      <div class="ca-shell" data-state="absent" data-ca-shell>
+        <span class="ca-label">Contract</span>
+        <div class="ca-value-wrap">
+          <span class="ca-value mono">Not yet deployed</span>
+        </div>
+        <button class="ca-copy" type="button" disabled aria-label="Copy contract address — not available yet" data-tooltip="Appears once the contract is live">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><rect x="3" y="3" width="8" height="8" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M6 3V2a1 1 0 011-1h5a1 1 0 011 1v5a1 1 0 01-1 1h-1" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>
+          <span class="copy-label" data-copy-label>Copy</span>
+        </button>
+        <span class="ca-state"><span class="ca-state-dot"></span>Not deployed</span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer container">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <img class="logo-mark" src="assets/logo-mark.png" width="24" height="24" alt="" aria-hidden="true" />
+      <span>Autonomous</span>
+      <span class="chain-badge" data-tooltip="Source: client statement, batch-level, 2026‑09‑02">
+        <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M8 7.2v4M8 5.2v.1" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+        Robinhood Chain · 4663
+      </span>
+    </div>
+    <div class="nav-social">
+      <span class="icon-btn tooltip-end" data-inert="true" tabindex="0" role="link" aria-disabled="true" aria-label="X — not yet announced" data-tooltip="Not yet announced">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </span>
+      <span class="icon-btn tooltip-end" data-inert="true" tabindex="0" role="link" aria-disabled="true" aria-label="GitHub — not yet announced" data-tooltip="Not yet announced">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+      </span>
+    </div>
+    <div class="footer-fine">
+      <span>© 2026 Autonomous. Community network dashboard — unofficial.</span>
+      <span>Palette unsampled — placeholder until brand assets land.</span>
+    </div>
+  </div>
+</footer>
+
+<script type="module" src="scripts/main.js"></script>
+</body>
+</html>
